@@ -1,0 +1,86 @@
+/* Write your CSS here */
+
+.bg {
+  background-image: linear-gradient(to bottom, #fbc7d4, #8b5cf6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  flex-wrap: wrap;
+}
+.form-elements {
+  display: flex;
+}
+.heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 40px;
+}
+.title {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 40px;
+}
+.f {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+input {
+  height: 36px;
+  width: 300px;
+  margin-left: 40px;
+  border-color: #b5b7c4;
+  border-radius: 5px;
+}
+
+.button {
+  cursor: pointer;
+  font-family: 'Roboto';
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 40px;
+  color: #ffffff;
+  background-color: #9897f0;
+  margin-left: 40px;
+  margin-top: 20px;
+  border: 0px;
+}
+.btn2 {
+  cursor: pointer;
+  font-family: 'Roboto';
+  outline: none;
+  height: 30px;
+  border-radius: 4px;
+  width: 90px;
+  color: #ffffff;
+  background-color: #9897f0;
+  margin-left: 40px;
+  margin-top: 33px;
+  border: 0px;
+  margin-right: 20px;
+}
+.c {
+  display: flex;
+  justify-content: space-between;
+}
